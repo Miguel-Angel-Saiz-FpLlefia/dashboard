@@ -1,0 +1,96 @@
+body{
+    background-color: aliceblue;
+}
+
+.dashboard{
+    width: 1440px;
+    height: 1070px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+header{
+    display: flex;
+}
+
+.navLeft{
+  width: 240px;
+  height: 1070px;  
+}
+
+.logo{
+    width: 129px;
+    height: 27px;
+    margin-top: 24px;
+    margin-left: 66px;
+}
+
+.menuDashborad{
+    display: flex;
+    width: 192px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #4880FF;
+    gap: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.menuDashborad img{
+    width: 22px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+.menuDashborad p{
+    width: 73px;
+    height: 19px;
+    margin-top: 16px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.1px;
+    color: #FFFFFF;
+}
+
+.menuDashboard2{
+    display: flex;
+    width: 240px;
+    height: 50px;
+    gap: 16px;
+    margin-left: 20px;
+}
+
+.menuDashboard2 img{
+    width: 22px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+.menuDashboard2 p{
+    width: 93px;
+    height: 19px;
+    margin-top: 16px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.1px;
+    color: #202224;
+}
+
+.navLeft hr{
+    width: 240px;
+    height: 1px;
+    border: 0.6px solid #E0E0E0;
+}
+
+.navVertical{
+    display: flex;
+}
+
+.navVertical img{
+    width: 24px;
+    height: 25px;
+}
