@@ -116,6 +116,122 @@ header{
     margin-top: 16px;
     margin-left: 24px;
     border: 0.6px solid #D5D5D5;
-    border-radius: 16px;
+    border-radius: 19px;
     background-color: #F5F6FA;
+}
+
+.searchBar img{
+    width: 16px;
+    height: 16px;
+    margin: 10px 0 0 16px;
+}
+
+.searchBar p{
+    width: 43px;
+    height: 19px;
+    margin: 10px 0 0 13px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #202224;
+    opacity: 50%;
+}
+
+#notificaciones{
+    margin-left: 250px;
+    width: 29px;
+    height: 31px;
+}
+
+.idiomas{
+    width: 124px;
+    height: 27px;
+    margin-top: 5px;
+    display: flex;
+    gap: 16px;
+}
+
+.idiomas img{
+   width: 40px;
+   height: 27px; 
+   border-radius: 5px;
+}
+
+.idiomas form{
+    margin-top: 27px;
+}
+
+.idiomas form select{
+    border: none;
+    width: 70px;
+    height: 19px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #646464;
+}
+
+.profile{
+    display: flex;
+    width: 169px;
+    height: 44px;
+    margin-left: 60px;
+    margin-top: 13px;
+}
+
+#logoUser{
+    width: 50px;
+    height: 52px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+#nombre{
+    width: 70px;
+    height: 19px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #404040;
+    margin-top: 13px;
+}
+
+#empleo{
+    margin-top: -10px;
+    width: 37px;
+    height: 16px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #565656;
+}
+
+.more{
+    width: 18px;
+    height: 18px;
+    border: 0.2px solid #5C5C5C;
+    border-radius: 100%;
+    position: relative;
+    left: 32px;
+    top: 20px;
+    /*margin-left: 32px;*/
+}
+
+.more img{
+    width: 6px;
+    height: 4px;
+    margin: 7px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
