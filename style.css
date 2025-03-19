@@ -14,7 +14,6 @@ header{
 }
 
 .navLeft{
-  width: 240px;
   height: 1070px;  
 }
 
@@ -81,7 +80,7 @@ header{
 }
 
 .navLeft hr{
-    width: 240px;
+    width: 280px;
     height: 1px;
     border: 0.6px solid #E0E0E0;
 }
