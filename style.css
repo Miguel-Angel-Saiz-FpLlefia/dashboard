@@ -348,9 +348,97 @@ main{
     margin-left: -10px;
 }
 
-#table{
+#tabla{
     width: 1170px;
     margin-left: -10px;
-    margin-top: -85px;
+    margin-top: 150px;
+}
+
+.table{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    margin-left: 30px;
+    margin-right: 33px;
+    margin-top: -45px;
+}
+
+.headerTable{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 33px;
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.headerTable h1{
+    width: 180px;
+    height: 20px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: #202224;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.headerTable form{
+    margin-top: 25px;
+}
+
+.headerTable form select{
+    width: 104px;
+    height: 26px;
+    border: 0.6px solid #D5D5D5;
+    color: rgba(43, 48, 52, 0.4);
+}
+
+
+table{
+    margin-left: 45px;
+    margin-top: 32px;
+    width: 1030px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+table thead{
+    width: 1074px;
+    height: 48px;
+    border: none;
+    background-color: #F1F4F9;
+    margin-left: 32px;
+}
+
+table thead tr{
+    border-collapse: collapse;
+}
+
+#imagenTexto{
+    display: flex;
+    gap: 16px;
+    margin-top: -10px;
+}
+
+#status{
+    width: 93px;
+    height: 27px;
+    border: none;
+    border-radius: 13.5px;
+    background-color: #00B69B;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+
+table tbody tr td{
+    margin-top: 40px;
 }
 
