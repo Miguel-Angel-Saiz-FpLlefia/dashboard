@@ -295,7 +295,7 @@ main{
 
 .imagenCentrada{
     margin-left: 107px;
-    margin-top: 37px;
+    margin-top: 20px;
 }
 
 .newCustomers{
@@ -323,7 +323,6 @@ main{
     font-size: 28px;
     letter-spacing: 1px;
     color: #202224;
-    text-align: center;
     margin-left: 15px;
 }
 
@@ -337,4 +336,38 @@ main{
     font-size: 16px;
     line-height: 20px;
     color: #282d32;
+}
+
+.flechas{
+    display: flex;
+    justify-content: space-between;
+    margin: 118px 16px 0px 16px;
+}
+
+.textoProducto{
+    text-align: center;
+    margin-top: 89px;
+    height: 20px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #282d32;
+}
+
+.precioProducto{
+    text-align: center;
+    height: 20px;
+    margin-top: -8px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 16px;
+    opacity: 70%;
+    color: #4880FF;
+}
+
+.graficoSalesAnalytics{
+    position: absolute;
+    top: 545px;
+    left: 735px;
 }
