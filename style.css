@@ -235,3 +235,123 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.dashboard{
+    display: flex;
+}
+
+main{
+    background-color: #F5F6FA;
+    width: 1168px;
+    height: 975px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 275px;
+}
+
+#tituloDashboard{
+    margin-left: 30px;
+    width: 161px;
+    height: 44px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #202224;
+}
+
+.cardsDashboard{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 27px;
+    margin-right: 33px;
+}
+
+.card{
+    width: 262px;
+    height: 161px;
+    border: none;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 54px #0000000D;
+}
+
+.tituloCard{
+    width: 120px;
+    height: 22px;
+    margin-top: 16px;
+    margin-left: 16px;
+    opacity: 70%;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #202224;
+}
+
+.usuariosCard{
+   width: 96px;
+   height: 38px;
+   margin-top: 16px;
+   margin-left: 16px;
+   font-family: "Nunito Sans", serif;
+   font-weight: 700;
+   font-size: 28px;
+   letter-spacing: 1px;
+   color: #202224;
+}
+
+.LogoCard{
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 16px;
+    margin-top: -101px;
+}
+
+.upDownUsers{
+    display: flex;
+    gap: 8px;
+    position: relative;
+    left: 16px;
+    bottom: 16px;
+}
+
+.numberUsersUp{
+    width: 177px;
+    height: 22px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00B69B;
+}
+
+.numberUsersDown{
+    width: 177px;
+    height: 22px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #F93C65;
+}
+
+.text{
+    width: 177px;
+    height: 22px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 70%;
+    color: #202224;
+}
+
+#grafico{
+    width: 1170px;
+    margin-left: -10px;
+}
+
+#table{
+    width: 1170px;
+    margin-left: -10px;
+    margin-top: -85px;
+}
+
