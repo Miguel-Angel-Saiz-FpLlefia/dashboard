@@ -358,6 +358,10 @@ main{
     margin-top: 150px;
 }
 
+table{
+    text-align: justify;
+}
+
 .table{
     background-color: #FFFFFF;
     border: none;
