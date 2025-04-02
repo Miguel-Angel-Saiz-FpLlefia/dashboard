@@ -239,6 +239,10 @@ header{
     display: flex;
 }
 
+.a{
+    text-decoration: none;
+}
+
 main{
     background-color: #F5F6FA;
     width: 1168px;
